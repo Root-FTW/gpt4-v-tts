@@ -151,7 +151,7 @@ def main():
     if uploaded_file is not None:
         st.video(uploaded_file)
         prompt = st.text_area(
-            "Prompt", value="These are frames of a quick product demo walkthrough. Create a short voiceover script that outline the key actions to take, that can be used along this product demo.")
+            "Prompt", value="Estos son fotogramas de un video de Fortnite. Cree un breve guión de voz en off que describa las acciones que puedes ver en estos fotogramas.")
 
     if st.button('Generate', type="primary") and uploaded_file is not None:
         with st.spinner('Processing...'):
